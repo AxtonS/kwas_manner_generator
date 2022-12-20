@@ -1,8 +1,8 @@
-let quote = document.querySelector('#manner');
+const quote = document.querySelector('#manner');
 
-let button = document.querySelector('button');
+const button = document.querySelector('button');
 
-let quotes = ["I hope your first born marries a french canadian.", 
+const quotes = ["I hope your first born marries a french canadian.", 
               "I hope you get a leg cramp when you're on the phone.", 
               "Step on a lego.", 
               "I hope you nick your cheek whilst shaving.",
@@ -26,10 +26,6 @@ let quotes = ["I hope your first born marries a french canadian.",
               "Everyone thinks your dandruff is out of control.",
               "I hope you stub your toe on my cock!"];
 
-function random() {
-  return Math.floor(Math.random()*quotes.length)
-};
-
 button.addEventListener('click', function () {
-  quote.textContent = quotes[random()]
+  quote.textContent = quotes[Math.floor(Math.random()*quotes.length)]
 });
