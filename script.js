@@ -1,4 +1,4 @@
-let quote = document.querySelector('span');
+let quote = document.querySelector('manner');
 
 let button = document.querySelector('button');
 
