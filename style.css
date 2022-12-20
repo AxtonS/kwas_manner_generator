@@ -14,7 +14,7 @@ button {
   font-style: bold;
 }
 
-p span {
+#manner, #text {
   background-color: #4CAF50;
   color: black;
   font-size: x-large;
