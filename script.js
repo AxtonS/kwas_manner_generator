@@ -24,9 +24,9 @@ const quotes = ["I hope your first born marries a french canadian.",
               "I hope you never see the northern lights again.",
               "I hope you find a hair in your soup.",
               "Everyone thinks your dandruff is out of control.",
-              "I hope you stub your toe on my cock!"
-              "You will never enjoy the future the way you enjoyed your youth!"
-              "I hope you drink alcohol after taking tylenol 3 and perish."
+              "I hope you stub your toe on my cock!",
+              "You will never enjoy the future the way you enjoyed your youth!",
+              "I hope you drink alcohol after taking tylenol 3 and perish.",
               "I hope you get a spaghetti stain on your favorite shirt!"];
 
 button.addEventListener('click', function () {
