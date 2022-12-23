@@ -25,7 +25,8 @@ const quotes = ["I hope your first born marries a french canadian.",
               "I hope you find a hair in your soup.",
               "Everyone thinks your dandruff is out of control.",
               "I hope you stub your toe on my cock!"
-              "You will never enjoy the future the way you enjoyed your youth!"];
+              "You will never enjoy the future the way you enjoyed your youth!"
+              "I hope you drink alcohol after taking tylenol 3 and perish."];
 
 button.addEventListener('click', function () {
   manner.textContent = quotes[Math.floor(Math.random()*quotes.length)]
